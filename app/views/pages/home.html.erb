@@ -9,19 +9,43 @@
 
         <section class="content">
           <h1>Formation</h1>
+          <div class="formation-left"></div>
+          <div class="formation-right"></div>
         </section>
 
         <section class="content1">
-          <h1>MOS - MyOnlySub</h1>
+          <h1>MyOnlySub</h1>
+            <div class="content-mos">
+              <div class="content-mos-left">
+                <%= image_tag asset_path('moscreen.png'),width: 700 %>
+              </div>
+              <div class="content-mos-right">
+                <p>MOS - My Only Sub :</p>
+                <p>Optimisation des abonnements des plateformes de streaming vidéos</p>
+                <p>(Netflix, Amazon, Disney+, AppleTV+)</p>
+                <a href="https://www.myonlysub.me/" target="_blank">
+                  <button class="btn btn-mos">Découvrir</button>
+                  </a>
+              </div>
+            </div>
         </section>
 
         <section class="content2">
           <h1>ON_AIR</h1>
+            <div class="content-air">
+              <div class="content-air-left">
+                <p>ON_AIR :</p>
+                <p>Marketplace entre stand-upper et gérants de Comedy Club</p>
+                <p>Gestion des réservations, recherche pour les utilisateurs</p>
+                <a href="https://on-air.herokuapp.com/" target="_blank">
+                  <button class="btn btn-air">Découvrir</button>
+                </a>
+              </div>
+              <div class="content-air-right">
+                <%= image_tag asset_path('onairscreen.png'),width: 700 %>
+              </div>
+            </div>
         </section>
-
-        <footer>
-          <%= render "shared/footer" %>
-        </footer>
       </div>
     </div>
   </div>

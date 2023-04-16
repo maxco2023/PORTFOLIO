@@ -29,6 +29,8 @@
   right: 0;
 }
 
+//PORTFOLIO
+
 header
 {
   width: 100%;
@@ -39,29 +41,130 @@ header
   z-index: -1;
 }
 
+// FORMATION
+
 .content
 {
-  min-height: 1150px;
+  min-height: 100vh;
   background: #ededed;
   position: relative;
   z-index: 1;
+  h1{
+    color: #999;
+  }
 }
 
-.content1
-{
-  min-height: 1150px;
+// CONTENT MOS
+
+.content1 {
+  min-height: 100vh;
   background: #ededed;
   position: relative;
   z-index: 1;
+  h1{
+    color: #999;
+  }
 }
+
+
+.content-mos {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.content-mos-left img {
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.content-mos-right {
+}
+
+.btn-mos {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: .5s;
+  letter-spacing: 4px;
+  border-radius: 10px;
+  color: rgb(217, 176, 255);
+  background-color: #252525;
+  margin-top: 20px;
+  width: 200px;
+}
+
+.btn-mos:hover {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: .5s;
+  letter-spacing: 4px;
+  border-radius: 10px;
+  color: rgb(217, 176, 255);
+  background-color: #676767;
+  margin-top: 20px;
+  width: 200px;
+}
+
+// CONTENT ON_AIR
 
 .content2
 {
-  min-height: 1150px;
+  min-height: 100vh;
   background: #ededed;
   position: relative;
   z-index: 1;
+  h1{
+    color: #999;
+  }
 }
+
+.content-air {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.content-air-left {
+    text-align: end;
+}
+
+.content-air-right {
+  img{
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  }
+}
+
+.btn-air {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: .5s;
+  letter-spacing: 4px;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 2px solid rgb(248, 105, 129);
+  color: #252525;
+  margin-top: 20px;
+  width: 200px;
+  font-weight: bold;
+}
+
+.btn-air:hover {
+  opacity: 0.7;
+}
+
+//
 
 .wrapper-parallax {
   margin-top: 100%;
@@ -79,20 +182,6 @@ h1{
   font-family: Helvetica;
   font-size: 150px;
   color: #fff;
-}
-
-header h1{}
-
-.content h1{
-  color: #999;
-}
-
-.content1 h1{
-  color: #999;
-}
-
-.content2 h1{
-  color: #999;
 }
 
 footer h1
